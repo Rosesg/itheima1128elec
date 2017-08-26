@@ -7,9 +7,17 @@ import java.util.Date;
  * Created by 11602 on 2017/8/26.
  */
 public class ElecTest implements Serializable {
+    /**
+     * 
+     */
+    private static final long serialVersionUID = 6789415717451044185L;
+
     private String testID;
+
     private String testName;
+
     private Date testDate;
+
     private String testRemark;
 
     public String getTestID() {
