@@ -5,9 +5,6 @@ import java.util.Date;
 import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.yuantek.elec.dao.IElecTestDao;
-import com.yuantek.elec.domain.ElecTest;
-
 public class TestDao {
     
     @Test

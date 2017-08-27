@@ -1,8 +1,5 @@
 package junit;
 
-import com.yuantek.elec.dao.IElecTestDao;
-import com.yuantek.elec.domain.ElecTest;
-import com.yuantek.elec.service.IElecTestService;
 import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

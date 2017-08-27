@@ -1,5 +1,4 @@
 package junit;
-import com.yuantek.elec.domain.ElecTest;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
