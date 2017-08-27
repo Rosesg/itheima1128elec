@@ -12,7 +12,7 @@ public class TestDao {
     
     @Test
     public void saveTest() {
-        ClassPathXmlApplicationContext ac = new ClassPathXmlApplicationContext("beans.xml");
+        ClassPathXmlApplicationContext ac = new ClassPathXmlApplicationContext("classpath:beans.xml");
         // 简单了，直接找这个接口就可以了，面向接口
         IElecTestDao bean = (IElecTestDao) ac.getBean(IElecTestDao.SERVICE_NAME);
         

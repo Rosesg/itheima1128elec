@@ -20,9 +20,9 @@ public class TestHibernate {
 
         //hibernate 迷人的地方就在此，操作对象的过程就是在操作数据库表
         ElecTest elecTest = new ElecTest();
-        elecTest.setTestName("小小");
+        elecTest.setTestName("测试Hibernate名称");
         elecTest.setTestDate(new Date());
-        elecTest.setTestRemark("xxxx");
+        elecTest.setTestRemark("测试Hibernate名备注");
         session.save(elecTest);
 
         transaction.commit();
