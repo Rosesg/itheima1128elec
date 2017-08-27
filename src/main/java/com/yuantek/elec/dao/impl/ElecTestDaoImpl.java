@@ -1,11 +1,16 @@
 package com.yuantek.elec.dao.impl;
 
+import org.springframework.stereotype.Repository;
+
 import com.yuantek.elec.dao.IElecTestDao;
 import com.yuantek.elec.domain.ElecTest;
-
 /**
- * Created by 11602 on 2017/8/26.
+ * 
+ *      @Repository 相当于在spring容器中定义：
+ *      <bean id="com.yuantek.elec.dao.impl.ElecTestDaoImpl" class="com.yuantek.elec.dao.impl.ElecTestDaoImpl" />
+ *
  */
-public class ElecTestDaoImpl extends CommonDaoImpl<ElecTest> implements IElecTestDao<ElecTest> {
-
+@Repository(IElecTestDao.SERVICE_NAME)
+public class ElecTestDaoImpl extends CommonDaoImpl<ElecTest> implements IElecTestDao {
+    
 }

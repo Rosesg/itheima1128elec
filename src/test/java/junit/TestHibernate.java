@@ -1,6 +1,4 @@
-/**
- * Created by 11602 on 2017/8/26.
- */
+package junit;
 import com.yuantek.elec.domain.ElecTest;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
